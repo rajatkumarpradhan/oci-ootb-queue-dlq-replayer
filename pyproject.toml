@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "oci-ootb-queue-dlq-replayer"
+version = "0.1.0"
+description = "Model of OCI Queue semantics: visibility timeout, redelivery, DLQ and replay"
+readme = "README.md"
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+where = ["src"]
